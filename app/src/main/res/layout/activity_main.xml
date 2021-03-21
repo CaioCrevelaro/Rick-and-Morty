@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="16dp"
+
+    tools:context=".view.main.MainActivity"
+    android:background="@color/purple_700"
+    android:theme="@style/ThemeNoActionBar">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
