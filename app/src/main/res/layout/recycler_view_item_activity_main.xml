@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/character_image"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
 
             android:adjustViewBounds="true"
             android:scaleType="fitStart"
@@ -33,34 +33,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/character_image"
-            app:layout_constraintTop_toTopOf="parent"
-
             android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textSize="18sp"
 
-            tools:text="Rick Sanchez"
-            android:textSize="24dp"/>
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toEndOf="@+id/character_image"
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Rick Sanchez" />
 
         <TextView
             android:id="@+id/character_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            tools:text="Location: Earth"
-            android:textSize="12sp"
-
-            android:layout_marginTop="16dp"
             android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/character_image"
 
             app:layout_constraintTop_toBottomOf="@id/character_name"
-            app:layout_constraintStart_toEndOf="@id/character_image"/>
-
-
+            tools:text="Location: Earth (Replacement Dimension)" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
 </androidx.cardview.widget.CardView>
