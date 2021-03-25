@@ -1,6 +1,4 @@
-<h1 style: align="center">Rick & Morty's App</h1>
-
-<p>Rever o vídeo da aula a partir da 1h20</p>
+<h1 style: align="center" xmlns:style="http://www.w3.org/1999/xhtml">Rick & Morty's App</h1>
 
 <h2>Esse aplicativo foi criado com o objetivo de estudar a implementação de API's no ambiente de desenvolvimento Android</h2>
 
